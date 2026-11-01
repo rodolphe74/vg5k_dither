@@ -5,6 +5,10 @@ La conversion d'images modernes (JPEG, PNG, ...) vers le [Philips VG5000](https:
 
 <img src="exemple.png" alt="bus" width="250">
 
+# prérequis (Windows)
+[gcc](https://github.com/brechtsanders/winlibs_mingw/releases/download/16.2.0posix-23.1.3-14.0.0-ucrt-r3/winlibs-i686-posix-dwarf-gcc-16.2.0-llvm-23.1.3-mingw-w64ucrt-14.0.0-r3.7z)
+[z88dk](https://github.com/z88dk/z88dk/releases/download/v2.4/z88dk-win32-2.4.zip)
+
 ```Powershell
 cmake -G Ninja -DCMAKE_BUILD_TYPE=Debug -B .\build -DCMAKE_EXPORT_COMPILE_COMMANDS=1
 copy build/compile_commands.json .
