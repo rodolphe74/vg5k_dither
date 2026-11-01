@@ -18,9 +18,11 @@ ninja
 ```
 
 ```
+# conversion de l'image
 .\vg5kdf.exe ..\samples\bw.png
 ```
 
 ```
+# création du binaire vg5000
 zcc +vg5k -create-app -o demo disp.c
 ```
