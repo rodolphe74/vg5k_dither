@@ -15,3 +15,7 @@ ninja
 ```
 .\vg5kdf.exe ..\samples\bw.png
 ```
+
+```
+zcc +vg5k -create-app -o demo disp.c
+```
