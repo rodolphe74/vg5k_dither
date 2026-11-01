@@ -11,3 +11,7 @@ copy build/compile_commands.json .
 cd build
 ninja
 ```
+
+```
+.\vg5kdf.exe ..\samples\bw.png
+```
