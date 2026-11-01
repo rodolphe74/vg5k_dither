@@ -7,4 +7,7 @@ La conversion d'images modernes (JPEG, PNG, ...) vers le [Philips VG5000](https:
 
 ```Powershell
 cmake -G Ninja -DCMAKE_BUILD_TYPE=Debug -B .\build -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+copy build/compile_commands.json .
+cd build
+ninja
 ```
