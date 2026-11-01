@@ -10,6 +10,7 @@ La conversion d'images modernes (JPEG, PNG, ...) vers le [Philips VG5000](https:
 [z88dk](https://github.com/z88dk/z88dk/releases/download/v2.4/z88dk-win32-2.4.zip)
 
 ```Powershell
+# compilation gcc
 cmake -G Ninja -DCMAKE_BUILD_TYPE=Debug -B .\build -DCMAKE_EXPORT_COMPILE_COMMANDS=1
 copy build/compile_commands.json .
 cd build
