@@ -1,0 +1,8 @@
+build/
+.cache/
+.vscode/
+CMakeFiles/
+CMakeCache.txt
+.ninja*
+compile_commands.json
+cmake_install.cmake
